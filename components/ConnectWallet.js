@@ -10,11 +10,9 @@ const ConnectWallet = () => {
     <div className='bg-white p-1 rounded-[15px] mt-[40px]'>
       {account ? (
         data
-    ) : (
-        <ConnectButton />
-    )}
-
-    
+      ) : (
+          <ConnectButton />
+      )}
     </div>
   )
 }

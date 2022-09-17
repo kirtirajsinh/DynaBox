@@ -7,11 +7,12 @@ const LandingPage = () => {
   return (
     // <div className="flex flex-col h-screen items-center justify-center ">
     <div className="flex flex-col h-screen items-center">
-
       <LandingPage_logo />
       <ConnectWallet />
-      <LandingPage_3options />
 
+      {/* if ConnectWallet is connected, show LandingPage_3options */}
+      <LandingPage_3options />
+      
     </div>
   )
 }
