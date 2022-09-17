@@ -48,7 +48,7 @@ export default function Home() {
             className={styles.card}
           >
             <h2>Ring &rarr;</h2>
-            <p>Fight to gain NFT rewards</p>
+            <p className='text-orange-700'>Fight to gain NFT rewards</p>
           </a>
         </div>
       </main>
