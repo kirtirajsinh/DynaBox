@@ -6,10 +6,9 @@ module.exports = {
   ],
   theme: {
     extend: {
-      colors: {
-        "radial": "#00193D"
-
-    },
+      backgroundImage: {
+        'gradient-linear': 'linear-gradient(var(--tw-gradient-stops))',
+      }
   },
   plugins: [],
 }
