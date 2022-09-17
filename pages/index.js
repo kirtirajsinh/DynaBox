@@ -3,10 +3,8 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className='bg-radial h-screen'>
     <div>
       <LandingPage />
-    </div>
     </div>
   )
 }
