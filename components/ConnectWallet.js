@@ -17,4 +17,4 @@ const ConnectWallet = () => {
   )
 }
 
-export default connectWallet
+export default ConnectWallet
