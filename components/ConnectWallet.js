@@ -7,7 +7,7 @@ const ConnectWallet = () => {
   const { disconnect } = useDisconnect();
 
   return (
-    <div>
+    <div className='bg-white p-1 rounded-[15px] mt-[40px]'>
       {account ? (
         data
     ) : (
