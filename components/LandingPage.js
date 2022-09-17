@@ -5,14 +5,13 @@ import LandingPage_3options from './LandingPage_3options'
 
 const LandingPage = () => {
   return (
-    // <div className="flex flex-col h-screen items-center justify-center ">
     <div className="flex flex-col h-screen items-center">
       <LandingPage_logo />
       <ConnectWallet />
 
       {/* if ConnectWallet is connected, show LandingPage_3options */}
       <LandingPage_3options />
-      
+
     </div>
   )
 }
