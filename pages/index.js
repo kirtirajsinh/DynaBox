@@ -13,8 +13,13 @@ export default function Home() {
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Welcome to <a href="https://nextjs.org">Frederico</a>
+          HI
         </h1>
+        
+        <div className={styles.logo_container}>
+          <img className={styles.logo} src='/DYNABOX.png'></img>
+        </div>
+
 
         <p className={styles.description}>
           Get started by editing{' '}

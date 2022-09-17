@@ -103,9 +103,13 @@
   line-height: 1.5;
 }
 
+.logo_container {
+  max-width: 600px;
+}
+
 .logo {
-  height: 1em;
   margin-left: 0.5rem;
+  max-width: 100%;
 }
 
 @media (max-width: 600px) {
